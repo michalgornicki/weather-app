@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  padding-bottom: 200px;
+  padding-top: 100px;
+  width: 600px;
+}
+
+.Thunderstorm {
+  background-image: url("images/clouds.jpg");
+  background-size: auto;
+}
+
+.Drizzle {
+  background-image: url("images/clouds.jpg");
+  background-size: auto;
+}
+
+.Rain {
+  background-image: url("images/clouds.jpg");
+  background-size: auto;
+}
+
+.Snow {
+  background-image: url("images/clouds.jpg");
+  background-size: auto;
+}
+
+.Atmosphere {
+  background-image: url("images/clouds.jpg");
+  background-size: auto;
+}
+
+.Atmosphere {
+  background-image: url("images/clouds.jpg");
+  background-size: auto;
+}
+
+.Atmosphere {
+  background-image: url("images/clouds.jpg");
+  background-size: auto;
+}

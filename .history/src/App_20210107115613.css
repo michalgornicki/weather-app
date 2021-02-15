@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  background-image: url("images/clouds.jpg");
+  padding-bottom: 200px;
+  padding-top: 100px;
+}
+
+.Clouds {
+  background-image: url("images/clouds.jpg");
+  background-size: cover;
+}
