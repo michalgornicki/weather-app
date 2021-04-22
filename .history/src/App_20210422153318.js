@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "weather-icons/css/weather-icons.css";
 import Weather from "./app_component/weather.component";
 import Form from "./app_component/form.component";
-const API_key = ${{secret.REACT_APP_WEATHER_API_KEY}}
+const API_key = process.env.REACT_APP_WEATHER_API_KEY;
 
 class App extends React.Component {
   constructor() {
