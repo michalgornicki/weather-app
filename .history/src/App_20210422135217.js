@@ -5,6 +5,7 @@ import "weather-icons/css/weather-icons.css";
 import Weather from "./app_component/weather.component";
 import Form from "./app_component/form.component";
 const API_key = process.env.REACT_APP_WEATHER_API_KEY
+require(‘dotenv’)
 
 class App extends React.Component {
   constructor() {
