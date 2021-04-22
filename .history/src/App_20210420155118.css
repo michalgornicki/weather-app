@@ -1,0 +1,165 @@
+.App {
+  position: relative;
+  text-align: center;
+  padding-bottom: 450px;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-size: cover;
+  font-family: "Quicksand";
+  user-select: none;
+  height: 100vmin;
+  background-color: rgb(238, 238, 238);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+.wrap-app{
+  width: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.8);
+  transition: 1s;
+  transform: scale(1);
+  background-size: cover;
+  border-radius: 5vmin;
+  background-image: url("images/overcastClouds.jpg");
+  min-height: 85vmin;
+}
+
+.wrap-app:hover{
+  transform: scale(1);
+}
+
+.cards {
+  color: white;
+}
+
+.wi {
+}
+
+.Thunderstorm {
+  background-image: url("images/thunderstorm.jpg");
+}
+
+.Drizzle {
+  background-image: url("images/drizzle.jpg");
+}
+
+.Rain {
+  background-image: url("images/rain.jpg");
+}
+
+.Snow {
+  background-image: url("images/snow.jpg");
+}
+
+.Atmosphere {
+  background-image: url("images/atmosphere.jpg");
+}
+
+.Clear1 {
+  background-image: url("images/clear1.jpg");
+}
+
+.Clear2 {
+  background-image: url("images/clear2.jpg");
+}
+
+.Clear3 {
+  background-image: url("images/clear3.jpg");
+}
+
+.Clouds {
+  background-image: url("images/clouds.jpg");
+}
+
+.fewClouds {
+  background-image: url("images/fewClouds.jpg");
+}
+
+.moderateClouds {
+  background-image: url("images/moderateClouds.jpg");
+}
+
+.heavyClouds {
+  background-image: url("images/heavyClouds.jpg");
+}
+
+.overcastClouds {
+  background-image: url("images/overcastClouds.jpg");
+}
+
+.forecast {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.flex-row {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 5vmin;
+  padding-top: 2vmin;
+  width: 80%;
+  left: 10%;
+}
+
+.button {
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  border: 0px;
+  border-radius: 20px !important;
+  margin-top: 5px;
+  padding: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 0px;
+}
+
+.button:focus {
+  outline: 0px;
+}
+
+.button:hover {
+  background: rgb(95, 95, 95);
+}
+
+.button:active {
+  background: rgba(17, 199, 0, 1);
+  transition: 0.3s;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.3) !important;
+  color: white !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.form-control::placeholder {
+  color: white !important;
+}
+
+.form-control:focus{
+  background: rgba(255, 255, 255, 0.3) !important;
+  color: white !important;
+  box-shadow: none  !important;
+}
+
+.temperature{
+  font-size: 8vmin;
+}
+
+.black-background{
+  background-color: rgb(255, 255, 255, 0);
+  text-shadow: white 0px 0px 5px;
+  width:fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.2vmin;
+  color: black;
+}
